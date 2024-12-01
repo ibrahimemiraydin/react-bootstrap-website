@@ -88,7 +88,7 @@ const Home = () => {
           // Form verilerini Formspree'ye gönderiyoruz
     try {
       const response = await axios.post(
-        "https://formspree.io/f/mqakbaaz", // Formspree form action URL'nizi buraya yapıştırın
+        "https://formspree.io/f/yourcode", // Formspree form action URL'nizi buraya yapıştırın
         formData,
         {
           headers: {
