@@ -114,11 +114,10 @@ const Home = () => {
   return (
     <div className="container mt-5 ">
       {/* Hakkımda Bölümü */}
-      <section id="about" className="container text-center mb-5 py-5  animate__animated animate__fadeIn bg-light text-dark " >
+      <section id="about" className="container text-center mb-5 py-5  animate__animated animate__fadeIn  " >
       <h1 className=" display-4">About Me</h1>
         <p className="lead mb-4">
           Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
-          Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
           Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
           Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
           Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
@@ -128,24 +127,12 @@ const Home = () => {
           Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
           Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
           Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
-          Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
-          Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
-          Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
-          Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
-          Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
-          Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
-          Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
-          Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
-          Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
-          Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
-          Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
-          Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
-          Hi! I'm [Your Name], a passionate developer who loves building web applications and solving problems.
+          
         </p>
       </section>
 
       {/* Projelerim Bölümü */}
-      <section id="projects" className="container text-center mb-5 py-5 animate__animated animate__zoomIn bg-dark text-white" >
+      <section id="projects" className="container text-center mb-5 py-5 animate__animated animate__zoomIn " >
   <h2>My Projects</h2>
   <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 ">
   {projects.map((project) => (
@@ -180,7 +167,7 @@ const Home = () => {
 
 
 {/* İletişim Bölümü Form */}
-<section id="contact" className="container text-center py-5 animate__animated animate__fadeInUp mt-5 bg-secondary text-white" >
+<section id="contact" className="container text-center py-5 animate__animated animate__fadeInUp mt-5 " >
         <h2>Contact Me</h2>
         <form onSubmit={handleSubmit} className="needs-validation" noValidate>
           <div className="mb-3">
